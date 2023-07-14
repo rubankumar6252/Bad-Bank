@@ -18,7 +18,6 @@ function AllData() {
                 <tr>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Password</th>
                     <th>Balance</th>
                 </tr>
             </thead>
@@ -28,7 +27,6 @@ function AllData() {
                         <tr key={index}>
                             <td>{item.name}</td>
                             <td>{item.email}</td>
-                            <td>{item.password}</td>
                             <td>{item.balance}</td>
                         </tr>
                     )
